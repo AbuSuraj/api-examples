@@ -1,0 +1,15 @@
+body {
+  background-color: azure;
+}
+#countries-container {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 15px;
+}
+.country {
+  background-color: cornflowerblue;
+  border: 2px solid red;
+  padding: 10px;
+  border-radius: 25px;
+}
